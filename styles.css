@@ -38,8 +38,9 @@ p {
   color: #b2abdb;
 }
 
-img {
-  width: 75%;
+.dice img {
+  width: 120px;
+  height:auto;
   background-color: #861f4d;
   border-radius: 25%;
   padding: 10px;
@@ -71,3 +72,4 @@ footer {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+
