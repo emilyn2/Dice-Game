@@ -46,14 +46,6 @@ img {
   display: inline-block;
 }
 
-.dice img {
-  width: 120px !important;
-  height: 120px !important;
-  object-fit: contain;
-  padding: 10px;
-  border-radius: 25%;
-  background-color: #861f4d;
-}
 
 img:hover {
   transform: scale(1);
@@ -81,6 +73,15 @@ footer {
   color: #eee;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+
+.dice img{
+  width:120px !important;
+  height:120px !important;
+  object-fit:contain;
+  padding:10px;
+  border-radius:25%;
+  background:#861f4d;
 }
 
 
