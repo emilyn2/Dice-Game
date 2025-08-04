@@ -5,7 +5,7 @@
   padding: 30px;
   border-radius: 10px;
   background: #4b2f52;
-  box-shadow: 0px 0px 20px #111;
+  box-shadow: 0 0 20px #111;
 }
 
 .dice {
@@ -14,9 +14,10 @@
   margin: 10px;
 }
 
+
 body {
   background-color: #5c2f4f;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -38,114 +39,48 @@ p {
   color: #b2abdb;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding: 30px;
-  border-radius: 10px;
-  background: #4b2f52;
-  box-shadow: 0px 0px 20px #111;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-  margin: 10px;
-}
-
-body {
-  background-color: #5c2f4f;
-  font-family:'Times New Roman', Times, serif;
-}
-
-h1 {
-  margin: 30px;
-  text-shadow: 5px 0 #051e47;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #2bb3bc;
-}
-
-h2, h3 {
-  margin: 30px;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #ad8f18;
-}
-
-p {
-  color: #b2abdb;
-}
 
 img {
-  width: 75%;
-  background-color: #861f4d;
-  border-radius: 25%;
-  padding: 10px;
-  mix-blend-mode: hard-light;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
 }
-
-img:hover {
-  transform: scale(1); 
-}
-
-.myBtn {
-  padding: 12px 25px;
-  font-size: 1rem;
-  background-color:darkcyan; 
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 30px;
-}
-
-.myBtn:hover {
-  background-color:rgb(122, 202, 175)
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
-img:hover {
-  transform: scale(1); 
-}
-
-.myBtn {
-  padding: 12px 25px;
-  font-size: 1rem;
-  background-color:darkcyan; 
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 30px;
-}
-
-.myBtn:hover {
-  background-color:rgb(122, 202, 175)
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
 
 .dice img {
   width: 120px !important;
   height: 120px !important;
   object-fit: contain;
-  padding: 10px;        
+  padding: 10px;
   border-radius: 25%;
   background-color: #861f4d;
+}
+
+img:hover {
+  transform: scale(1);
+}
+
+
+.myBtn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.myBtn:hover {
+  background-color: rgb(122, 202, 175);
+}
+
+
+footer {
+  margin-top: 5%;
+  color: #eee;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 
